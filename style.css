@@ -10,7 +10,7 @@ body {
     color: #333;
     line-height: 1.6;
     padding-bottom: 60;
-    transition: background-color 0.3s, color0.3;
+    transition: background-color 0.3s, color 0.3s;
 }
 body.dark-mode {
     background-color: #1a1a1a;
@@ -72,7 +72,7 @@ h1,h2,h3 {
 }
 
 .project-item {
-    border: 1fr solid #ddd;
+    border: 1px solid #ddd;
     background-color: #eef2f5;
     padding: 1rem;
     border-radius: 6px;
